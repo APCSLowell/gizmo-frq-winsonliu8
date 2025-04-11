@@ -29,9 +29,10 @@ public class OnlinePurchaseManager
     for (int I = 0; I < purchases.size()-1; i++){
       if (purchases.get(i).equals(purchases.get(i)))
         return true; 
-    }
+    
     else
       return false; 
+    }
   }
   public OnlinePurchaseManager()
   {
