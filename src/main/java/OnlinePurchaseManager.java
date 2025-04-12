@@ -30,10 +30,8 @@ public class OnlinePurchaseManager
       if (purchases.get(i).equals(purchases.get(i+1))){
         return true; 
       }
-      else{
-        return false; 
-       }
     }
+    return false;
   }
   public OnlinePurchaseManager()
   {
