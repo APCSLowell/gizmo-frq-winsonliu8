@@ -14,7 +14,7 @@ public class OnlinePurchaseManager
     /* to be implemented in part (a) */
     int sum = 0; 
     for (int i = 0; i < purchases.size(); i++){
-      if (isElectronic(purchases.get(i)) == true && getMaker(purchases.get(i) .equals(maker)))
+      if (purchases.get(i).isElectronic() && purchases.get(i).getMaker().equals(maker))
         sum++; 
     }
     return sum; 
