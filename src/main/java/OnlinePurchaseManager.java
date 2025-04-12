@@ -27,11 +27,12 @@ public class OnlinePurchaseManager
   {
     /* to be implemented in part (b) */
     for (int i = 0; i < purchases.size()-1; i++){
-      if (purchases.get(i).equals(purchases.get(i)))
+      if (purchases.get(i).equals(purchases.get(i))){
         return true; 
-    
-    else
-      return false; 
+      }
+      else{
+        return false; 
+       }
     }
   }
   public OnlinePurchaseManager()
